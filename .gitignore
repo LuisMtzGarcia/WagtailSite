@@ -3,3 +3,5 @@ __pychache__/
 blog/__pychache__/
 blog/migrations/__pychache__/
 *.pyc
+mysite/settings/__pychache__/
+media/
