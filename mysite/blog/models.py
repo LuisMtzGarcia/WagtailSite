@@ -35,7 +35,7 @@ class BlogTagIndexPage(Page):
 
         # Filter by tag
         tag = request.GET.get('tag')
-        blogpages = BlogPage.objects.filter(tags__nanme=tag)
+        blogpages = BlogPage.objects.filter(tags__name=tag)
 
         # Update template context
         context = super().get_context(request)
